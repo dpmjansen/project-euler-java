@@ -23,21 +23,22 @@ public class Euler7Main {
             }
             if(euler7Main.isPrime(i)){
                 position++;
+                logger.info(String.format("Found prime: %f on index %d", i, position));
             }
-            logger.info(String.format("Current position: %d", position));
+//            logger.info(String.format("Current position: %d", position));
         }
     }
 
     private boolean isPrime(double number){
 
-        logger.info("Processing number " + number);
+//        logger.debug("Processing number " + number);
 
         if(number <= 0) {
             return false;
         }
 
         if(number == 2){
-            logger.info(String.format("Found prime!: %f", number));
+//            logger.debug(String.format("Found prime!: %f", number));
             return true;
         }
 
@@ -57,7 +58,7 @@ public class Euler7Main {
                 return false;
             }
         }
-        logger.info(String.format("Found prime!: %f", number));
+//        logger.debug(String.format("Found prime!: %f", number));
         return true;
 
     }
