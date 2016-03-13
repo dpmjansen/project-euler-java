@@ -1,4 +1,7 @@
-# project-euler-java
+# Project-euler-java - 1.0
 
-v1.0
-Initial commit test
+
+### Used techniques
+
+#### Problem 7
+AKS Primality Test

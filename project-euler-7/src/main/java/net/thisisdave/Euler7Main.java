@@ -1,4 +1,4 @@
-package net.thisisdave.euler7;
+package net.thisisdave;
 
 import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;

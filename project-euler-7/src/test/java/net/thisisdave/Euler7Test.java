@@ -1,4 +1,4 @@
-package net.thisisdave.euler7;
+package net.thisisdave;
 
 import org.junit.Test;
 
