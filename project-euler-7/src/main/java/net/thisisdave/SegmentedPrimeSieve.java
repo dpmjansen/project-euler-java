@@ -3,11 +3,11 @@ package net.thisisdave;
 import java.util.Arrays;
 
 /**
- * Based on the Segmented sieve of Eratosthenes in order to find prime numbers
+ * Based on the Segmented sieve of Eratosthenes in order to find prime numbers (Found somewhere on the internet)
  */
 public class SegmentedPrimeSieve {
 
-    private static final long MAX = 10001L;
+    private static final long MAX = 1000000L;
     private static final long SQRT_MAX = (long) Math.sqrt(MAX) + 1;
     private static final int MEMORY_SIZE = (int) (MAX >> 4);
     private static byte[] array = new byte[MEMORY_SIZE];
@@ -34,7 +34,7 @@ public class SegmentedPrimeSieve {
         for (long i = 3; i < MAX; i += 2) {
             if (!getBit(i)) {
                 pi++;
-                // System.out.println(i);
+//                 System.out.println(i);
             }
         }
 

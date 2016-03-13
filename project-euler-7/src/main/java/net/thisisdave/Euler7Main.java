@@ -4,6 +4,8 @@ import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.math.BigInteger;
+
 public class Euler7Main {
 
     private static Logger logger = LoggerFactory.getLogger(Euler7Main.class);
@@ -27,6 +29,7 @@ public class Euler7Main {
             }
 //            logger.info(String.format("Current position: %d", position));
         }
+
     }
 
     private boolean isPrime(double number){
